@@ -1,0 +1,376 @@
+div,
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.message-container {
+  height: 60px;
+  width: auto;
+  background-color: DarkViolet;
+}
+
+.messages {
+  margin-top: -80px;
+  font-size: 30px;
+}
+
+.messages p {
+  display: none;
+  color: black;
+  margin-left: 30%;
+  color:white;
+}
+
+.social {
+  margin-left: 77%;
+  padding-top: 0px;
+  border: none;
+}
+
+.social a {
+  text-decoration: none;
+  border: none;
+}
+
+.social img {
+  text-decoration: none;
+  border: none;
+}
+
+.fb {
+  /* background-image: url('http://www.iconsdb.com/icons/preview/white/facebook-xxl.png');*/
+  /*  background-image: url('http://scharlachrot.com/images/facebook-white-256.png');*/
+  
+  background-image: url('http://2.bp.blogspot.com/-5Om0wl0gpMc/UcGd3jpJBKI/AAAAAAAAAaw/oUOdETSNkU0/s1600/facebook.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position:10px 6px;
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 13px;
+  display: inline-block;
+}
+
+.gp {
+  /* background-image: url('http://www.iconsdb.com/icons/preview/white/facebook-xxl.png');*/
+  /*  background-image: url('http://scharlachrot.com/images/facebook-white-256.png');*/
+  
+  background-image: url('http://2.bp.blogspot.com/-k4UX8rSagsM/UcGd3sGQSbI/AAAAAAAAAa0/kDbogGEMc0U/s1600/google-plus.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 158px;
+  margin-top: -35px;
+  display: block;
+}
+
+.tw {
+  /*  background-image: url('http://www.iconsdb.com/icons/preview/white/twitter-xxl.png');*/
+    background-image: url('https://g.twimg.com/Twitter_logo_white.png');
+  
+  mbackground-image: url('http://dev.bowdenweb.com/a/i/cons/simple-icons/soundcloud/soundcloud-2048.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.logo {
+  background-image: url('http://www.smashingbuzz.com/wp-content/uploads/2013/01/Riverside-Church-Logo.jpg');
+  background-size: 190px 120px;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 15%;
+  float: left;
+  margin-left: 40px;
+  bmackground-position: -1px 20px 70px 20px;
+}
+
+.menu-part {
+  margin-top: 25px;
+  margin-right: 10px;
+  width: auto;
+  height: 50px;
+  float: right;
+}
+
+.move1 {
+  margin-left: 0px;
+}
+
+.move {
+  margin-left: 0px;
+}
+
+.menu-part a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1px;
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 1.45em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  text-align: center;
+  padding-left: -10px;
+  margin-bottom: 10%;
+  padding-right: 20px;
+}
+
+.menu-part a:hover {
+  color: red;
+}
+
+hr {
+  margin-top: 100px;
+  margin-right: 0px;
+}
+
+#slider {
+  width: 65%;
+  height: 320px;
+  overflow: hidden;
+  background-color: red;
+  /*margin-left: 100px;*/
+  margin-left:10%;
+  margin-bottom: 60px;
+}
+
+#slider .slides {
+  display: block;
+  width: 600px;
+  margin: 0px;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 350px;
+}
+
+.slide img {
+  float: left;
+  list-style-type: none;
+  height: 320px;
+  width: 150%;
+  margin-left: -50px;
+  /*   max-helight: 400px;
+  max-width: 1100px;*/
+}
+
+.boxes {
+  margin-left: -120px;
+}
+
+.box {
+  height: 110px;
+  width: 17.5%;
+  background-color: red;
+  margin-left: 200px;
+  background-image: url('https://img.evbuc.com/http%3A%2F%2Fcdn.evbuc.com%2Fimages%2F13570610%2F20758686702%2F1%2Foriginal.jpg?w=600&s=0ec9490f3a1c603cbe78215bec0b96ef');
+  background-position: 15% 10%;
+  background-size: cover;
+}
+
+.box > p {
+  padding-top: 130px;
+  padding-left: 0px;
+  height: 120px;
+  width: 105%;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+}
+
+.box2 {
+  height: 110px;
+  width: 17.5%;
+  background-color: red;
+  margin-left: 459px;
+  margin-top: -126px;
+  background-image: url('http://riverviewchurchmi.org/wp-content/uploads/2015/06/Riverview_Breakfast2.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+
+.box2 > p {
+  padding-top: 130px;
+  padding-left: 0px;
+  height: 120px;
+  width: 105%;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+}
+
+.box3 {
+  height: 110px;
+  width: 17.5%;
+  background-color: red;
+  margin-left: 717px;
+  margin-top: -126px;
+  background-image: url('http://www.valleycc.org/uploads/6/7/7/7/6777433/9333212_orig.jpg');
+  background-position: 15% 10%;
+  background-size: cover;
+}
+
+.box3 > p {
+  padding-top: 130px;
+  padding-left: 0px;
+  height: 120px;
+  width: 105%;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+}
+
+.box4 {
+  height: 110px;
+  width: 17.5%;
+  background-color: red;
+  margin-left: 975px;
+  margin-top: -126px;
+   background-image: url('http://www.wildplace.org.uk/sites/default/files/styles/large/public/Plan-your-visit.gif?itok=ZneUtDQv');
+   background-position: center;
+  background-size: 111% 140%;
+  background-repeat:no-repeat;
+
+}
+
+.box4 > p {
+  padding-top: 130px;
+  padding-left: 0px;
+  height: 120px;
+  width: 105%;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+}
+
+h1 {
+  margin-top: 190px;
+  text-align: center;
+}
+
+.wmessage {
+  padding-top: 10px;
+  padding-left: 8%;
+  height: 120px;
+  width: 82%;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif !important;
+  margin-bottom: -20px;
+}
+
+.pastor {
+  font-size: 25px;
+  margin-left: 99px;
+}
+
+footer {
+  margin-top: 100px;
+  height: 300px;
+  width: %;
+  background-color: #8C8990;
+  border-style: solid;
+  border-top-color: DarkViolet;
+  border-top-width: 10px;
+}
+
+.contact h4 {
+  color: white;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+.contact p {
+  color: #DEDEDE;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-style: italic;
+  border-bottom-style: outset;
+  border-bottom: 2px solid #333;
+  border-length: 50px;
+  width: 250px;
+  padding-bottom: 15px;
+}
+
+.contact a:hover {
+  color: red;
+}
+
+.contact a {
+  color: #DEDEDE;
+  margin-top: 20px;
+  font-style: italic;
+  border-bottom-style: outset;
+  border-bottom: 2px solid #333;
+  border-length: 50px;
+  width: 200px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+
+.follow h4 {
+  color: white;
+  margin-top: -200px;
+  margin-left: 550px;
+  font-style: italic;
+}
+
+.follow p {
+  color: black;
+  margin-left: 550px;
+  margin-top: 20px;
+  font-style: italic;
+  border-bottom-style: outset;
+  border-bottom: 2px solid #333;
+  border-length: 50px;
+  width: 250px;
+  padding-bottom: 15px;
+}
+
+.follow a {
+  color: black;
+  margin-top: 20px;
+  font-style: italic;
+  border-bottom-style: outset;
+  border-bottom: 2px solid #333;
+  border-length: 50px;
+  width: 200px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+
+.follow a:hover {
+  color: red;
+}
+
+.follow a {
+  color: #DEDEDE;
+  margin-top: 20px;
+  font-style: italic;
+  border-bottom-style: outset;
+  border-bottom: 2px solid #333;
+  border-length: 50px;
+  width: 200px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+
+.address h4 {
+  color: white;
+  margin-left: 940px;
+  margin-top: -200px;
+}
+
+.address span {
+  display: block;
+  color: #DEDEDE;
+  margin-left: 850px;
+  margin-top: -x;
+  word-wrap: normal;
+}
