@@ -1,0 +1,52 @@
+.bodyContainer {
+  margin-top: 5%;
+/*   height: 1448px; */
+}
+
+.imgContainer {
+  height: 620px;
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  border: 5px solid white;
+}
+
+img {
+  height: 550px;
+  width: 100%;
+}
+
+.image1 p {
+  margin: 20px auto;
+}
+
+.timeline{
+  margin-left:10%;
+  margin-top:5%;
+  width:60%;
+}
+
+.list{
+   word-wrap: normal;
+  line-height: 250%
+}
+
+span{
+  font-weight:bold;
+}
+
+.quote{
+  margin-left:5%;
+}
+
+.source{
+  margin-left: 10%;
+}
+
+.wikiLink{
+  margin-left:5%;
+}
+
+.cw{
+  border-top: 1px solid lightGrey;
+}
