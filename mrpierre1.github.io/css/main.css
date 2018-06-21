@@ -1,0 +1,132 @@
+
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.nav .menu li > a {
+  color: white;
+  overflow: visible;
+}
+
+.nav .menu li > a:hover {
+  color: #C0C0C0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  color: black;
+}
+
+.container{
+      height: 630px;
+      overflow:hidden;
+}
+
+
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 43%;
+    margin-right: -10px;
+}
+
+.row .text-capitalize {
+    margin-top: 3%;
+    margin-left: 42.5%;
+    margin-bottom: -3%;
+    width:30%;
+}
+
+.leftIcon:hover, .rightIcon:hover  {
+  color: black;
+}
+
+.rightIcon:visited { 
+    color: black;
+}
+
+hr {
+  border: 5px solid #C0C0C0;
+}
+
+.contactHeader {
+  margin-left: 45%;
+  /*border:2px solid red;*/
+}
+
+#experience{
+  margin-top: -1%;
+}
+
+.expLine{
+  margin-top: -10%;
+}
+
+div .thumbnail img{
+  height:200px;
+  width:100%;
+}
+
+.cForm {
+  background-color: #999;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 5%;
+  height: 685px;
+  width: 105%;
+}
+
+
+.text-capitalize{
+  margin:5% 50%;
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  margin-top: 3%;
+  margin-left:5%;
+  height:30%;
+}
+
+
+.leftIcon,
+.rightIcon {
+  color: black;
+  margin-bottom: 115%;
+}
+
+.expLine{
+      margin-top: -152%;
+}
+
+.contactHeader {
+  margin-left: 30%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin-top: 5%;
+  border: 1px solid #333;
+}
+
+
+  .col-md-12 h1{
+    margin-bottom:10%
+  }
+  
+
+}
+
+
+
